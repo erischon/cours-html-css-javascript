@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page de test pour CSS Visual Design</title>
 </head>
 <body>
     
     <style>
         div {
-          width: 70%;
-          height: 100px;
-          margin:  50px auto;
+
         }
+
+        .rectangle {
+            width: 70%;
+            height: 100px;
+            margin:  50px auto;
+        }
+
+        .rond {
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            border-radius: 50%;
+        }
+
         #top {
           background-color: red;
+          background: linear-gradient(45deg, red, black);
+          transform: skewX(10deg);
+          transform: skewY(10deg);
+          box-shadow: 10px 10px 5px black;
         }
         #bottom {
           background-color: blue;
-          transform: skewX(24deg);
+          transform: skewX(0deg);
+          transform: skewY(10deg);
+          box-shadow: 10px 10px 5px black;
         }
       </style>
       
-      <div id="top"></div>
-      <div id="bottom"></div>
+      <div class="rectangle" id="top"></div>
+      <p style="text-align: center;">Un transform sur un rectangle skewX + skewY + box-shadow + line-gradient</p>
+
+      <div class="rond" id="bottom"></div>
+      <p style="text-align: center;">Un transform skewX (ça se voit pas en rond) et skewY + box-shadow</p>
 
 
 
