@@ -1,0 +1,19 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+   body {
+       font-family: sans-serif;
+   }
+
+   .wrapper {
+       display: flex;
+       justify-content: space-evenly;
+   }
+
+   .box {
+       padding: 1em;
+       margin: 0 auto;                      /* pas mis, à penser */
+       width: 200px;
+       text-align: center;
+   }

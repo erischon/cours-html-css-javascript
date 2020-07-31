@@ -1,0 +1,19 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+   body {
+        font-family: sans-serif;
+   }
+
+   h1 {
+        border-bottom: 2px solid black;
+        padding: .4em;
+        margin: .4em;
+        display: inline-block;
+   }
+
+   p {
+       padding-left: 1.6em;
+   }
+
