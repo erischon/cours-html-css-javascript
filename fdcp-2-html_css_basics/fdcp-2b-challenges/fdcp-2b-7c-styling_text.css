@@ -1,0 +1,23 @@
+/* DON'T TOUCH THIS! */
+p {
+	text-align: center;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+   body {
+       font-family: sans-serif;
+       font-size: 30px;
+   }
+
+   strong {
+        color: #eb8315;
+        font-size: 35px;
+   }
+
+   em {
+        color: #1785eb;
+   }
