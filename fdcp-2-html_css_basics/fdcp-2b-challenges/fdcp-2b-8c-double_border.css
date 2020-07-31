@@ -1,0 +1,29 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+   .outer-box {
+        border: 20px solid #f24c46;
+        width: 100px;
+        margin: auto;
+   }
+
+   .inner-box {
+        border : 20px solid #1785eb;
+        padding: 30px;
+   }
+
+   /*
+
+   .inner-box {
+    width: 30px;
+    height: 30px;
+    border: 10px solid #1785eb;
+}
+
+.outer-box {
+    border: 10px solid #f24c46;
+    width: 50px;
+}
+
+*/
