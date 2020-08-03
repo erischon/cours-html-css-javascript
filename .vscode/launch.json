@@ -1,10 +1,6 @@
 {
-    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
-    // Pointez pour afficher la description des attributs existants.
-    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "pwa-chrome",
             "request": "launch",
@@ -12,5 +8,11 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         },
+        {
+            "type": "pwa-node",
+            "name": "Run Current File",
+            "request": "launch",
+            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3b-intro-to-javascript\\index_5.js"
+        }
     ]
 }
