@@ -12,3 +12,4 @@ var colors = ["blue", "green", "red", "yellow", "purple"]
 // String
 var name = "joe"
 console.log( name.length )
+console.log( name[1] ) // "o"
