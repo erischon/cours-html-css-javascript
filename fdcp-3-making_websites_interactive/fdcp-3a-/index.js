@@ -1,5 +1,2 @@
-var awesomeHeader = document.getElementById("myHeader")
-
-awesomeHeader.style.background = 'red'
-
-awesomeHeader.style.color = 'green'
+var myButton = document.getElementById("btn")
+console.log(myButton)
