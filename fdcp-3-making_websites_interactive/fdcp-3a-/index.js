@@ -1,5 +1,5 @@
-// 1. create a studentGreeting variable, it should include a personal greeting from you
-var studentGreeting = "Hello from Eri! I'm a Scrimba student"
+var awesomeHeader = document.getElementById("myHeader")
 
-// 2. log out your newly created variable
-console.log(studentGreeting)
+awesomeHeader.style.background = 'red'
+
+awesomeHeader.style.color = 'green'
