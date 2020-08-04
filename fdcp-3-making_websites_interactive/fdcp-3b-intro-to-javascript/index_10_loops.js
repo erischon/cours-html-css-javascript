@@ -25,11 +25,18 @@
 //     console.log( favFoods[i] )
 // }
 
-var numbers = [1, 2, 3, 4, 5, 6]
-// numbers[0]
+// var numbers = [1, 2, 3, 4, 5, 6]
+// // numbers[0]
 
-for(var i = 0; i < numbers.length; i++){
-    if(numbers[i] % 2 === 0){
-        console.log(numbers[i])
-    }
+// for(var i = 0; i < numbers.length; i++){
+//     if(numbers[i] % 2 === 0){
+//         console.log(numbers[i])
+//     }
+// }
+
+var count = 0
+
+while(count < 10){
+    console.log('hi')
+    count++
 }
