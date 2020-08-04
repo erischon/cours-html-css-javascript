@@ -1,27 +1,35 @@
-- Function Declaration
+Assignment - Social JS
 
-function sum(){
-    
+Create a model to represent the database of a new social media platform you're creating. It can be about whatever you want, but it needs the following:
+
+At least 3 nested levels of data (including objects and arrays)
+At least 1 method
+Span across at least 50 lines of code. (No empty lines)
+Example:
+
+var mountainClimber = {
+    name: "Bob",
+    age: 31,
+    favoriteClimbs: [],
+    mountainClimbingFriends: [
+        {
+            name: "Sarah",
+            age: 31,
+            favoriteClimbs: [
+                {
+                    climbName: "Mount Everest",
+                    difficulty: 10
+                },
+                  ... etc ...
+            ]
+        },
+        {
+            
+        }
+    ]
 }
 
+After you create the base object, you need to:
 
-- Function Expression
-
-var sum = function(){
-    
-}
-
-
-- Function Parameters
-function sum(num1, num2){
-    return num1 + num2
-}
-
-// num1 and num2 are parameters (placeholders) for data we can pass in and have the function use
-
-
-- Function Arguments
-
-    sum(10, 14)
-    
-// 10 and 14 are the arguments for the sum function.  Within the function they will be referred to as num1 and num2.
+Add 2 properties to one of the objects (doesn't matter what level of nested data you do this to)
+Add 2 items to at least one of the arrays in your data
