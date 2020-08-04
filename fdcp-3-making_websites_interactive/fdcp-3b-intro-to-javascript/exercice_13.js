@@ -34,3 +34,19 @@ var movieGoers = [
       gender: "female"
     }
   ];
+
+  for(var i = 0; i < movieGoers.length; i++) {
+    if( movieGoers[i].age >= 18 ) {
+        if( movieGoers[i].gender == "male") {
+            console.log( movieGoers[i].name + " is old enough to see the movie. HE's good to see the movie." )
+        } else {
+            console.log( movieGoers[i].name + " is old enough to see the movie. SHE'S good to see the movie." )
+        }
+    } else {
+        if( movieGoers[i].gender == "male") {
+            console.log( movieGoers[i].name + " is not old enough to see the movie, don't let HIM in." )
+        } else {
+            console.log( movieGoers[i].name + " is not old enough to see the movie, don't let HER in." )
+        }
+    }
+  }
