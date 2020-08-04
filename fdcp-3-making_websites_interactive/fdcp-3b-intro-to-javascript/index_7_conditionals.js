@@ -1,8 +1,8 @@
 // Conditionals 
 // Boolean - true / false
 
-if(false){
-    console.log("IT is true!")
+if(2 === 4){
+    console.log("TWO IS EQUAL TO TWO")
 } else {
-    console.log("IT is false!")
+    console.log("TWO IS NOT EQUAL TO FOUR")
 }
