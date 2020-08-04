@@ -1,22 +1,29 @@
-// Functions Part 1
+// Functions part 2
 
-// DRY
-    // Do not repeat yourself
-    
-// Statement
-// var name = "nate"
-    
-// Function Declaration  
-// function sum(){
-//     console.log(2 + 2)
+// function sum(num1, num2){
+//     return num1 + num2
 // }
 
-// // Function Expression
-// var mySumFunction = function(){
-//     console.log(2 + 2)
+// // Calling a function (execute a function)
+// var result = sum(10, 25) // arguments
+// console.log(result)
+
+// function myFunc(data){
+//     console.log(data)
 // }
 
-// Parameters
-function sum(num1, num2){
-    return num1 + num2
+// myFunc(1)
+// myFunc("hello")
+// myFunc(true)
+// myFunc([1,2 ,3, 4])
+// myFunc({name: "joe"})
+
+function loopThroughArr(array){
+    
+    for(var i = 0; i < array.length; i++){
+        console.log(array[i])
+    }
+    
 }
+
+loopThroughArr([1, 2, 3, 4, 5, 6])
