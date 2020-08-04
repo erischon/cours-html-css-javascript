@@ -28,8 +28,20 @@
         // false
         // NaN
         
-        if("a"){
-            console.log("it is truthy")
-        } else {
-            console.log("it is falsey")
-        }
+// if([1, 2, 3]){
+//     console.log("it is truthy")
+// } else {
+//     console.log("it is falsey")
+// }
+
+
+// Logic Operators
+    // && - and
+    // || - or
+    // !  - not
+    
+    if(2 === 2 && 2 === 3){
+        console.log("It's working!")
+    } else {
+        console.log("It's not working")
+    }
