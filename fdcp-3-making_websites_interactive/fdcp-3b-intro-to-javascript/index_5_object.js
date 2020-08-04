@@ -18,7 +18,7 @@ var person = {
 
 // console.log(person.name)
 // console.log(person.age)
-// console.log(person.friends)
+console.log(person.friends)
 
 // console.log(person.address.street)
 
@@ -50,4 +50,3 @@ var vehicule = {
     brand: "mercedes",
     km: 15000,
 }
-

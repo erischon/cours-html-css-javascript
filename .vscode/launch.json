@@ -1,6 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/mypage.html",
+            "webRoot": "${workspaceFolder}/wwwroot"
+        },
+        {
+            "name": "Launch index.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html"
+        },
         {
             "type": "pwa-chrome",
             "request": "launch",
@@ -12,7 +26,7 @@
             "type": "pwa-node",
             "name": "Run Current File",
             "request": "launch",
-            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3b-intro-to-javascript\\index_5.js"
+            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3b-intro-to-javascript\\index_6_object.js"
         }
     ]
 }
