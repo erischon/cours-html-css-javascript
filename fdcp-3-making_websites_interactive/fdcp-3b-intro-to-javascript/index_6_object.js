@@ -4,15 +4,17 @@ var car = {
     type: "Honda",
     make: "Civic",
     wheels: 4,
+    honkSound: "BLLEERRP",
     honk: function(){
-        console.log("HOOOOONK")
+        console.log( this.honkSound )
     }
 }
 
-// add properties to an object
 // car.hasHadAccident = true
 // console.log(car)
 
 // Objects can hold functions - METHOD
 
 car.honk()
+
+// "this"
