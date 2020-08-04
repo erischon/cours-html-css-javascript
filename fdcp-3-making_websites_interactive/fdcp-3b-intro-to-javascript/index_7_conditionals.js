@@ -40,8 +40,28 @@
     // || - or
     // !  - not
     
-    if(2 === 2 && 2 === 3){
-        console.log("It's working!")
-    } else {
-        console.log("It's not working")
-    }
+// if((2 === 2 && 3 === 3) && 2 !== 3){
+//     console.log("It's working!")
+// } else {
+//     console.log("It's not working")
+// }
+
+// Order of operations  + - * /
+
+
+// Switch Statement
+var color = "green"
+
+switch(color){
+    case "red":
+        console.log("The color is red")
+        break
+    case "blue":
+        console.log("The color is blue")
+        break
+    case "yellow":
+        console.log("The color is yellow")
+        break
+    default:
+        console.log("The color is not red, blue or yellow")
+}
