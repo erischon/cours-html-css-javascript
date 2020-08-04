@@ -15,6 +15,15 @@ var car = {
 
 // Objects can hold functions - METHOD
 
-car.honk()
+// car.honk()
 
 // "this"
+
+
+// Objects and Arrays
+    // Passed by reference
+var otherCar = car
+
+otherCar.type = "Jeep"
+
+console.log(car)
