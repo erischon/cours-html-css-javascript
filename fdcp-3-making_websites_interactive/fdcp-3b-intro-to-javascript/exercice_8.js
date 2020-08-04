@@ -15,25 +15,25 @@ var person = {
   // 1
 
   if (person.age >= 18) {
-    console.log( "You can go to the movie.")
+    console.log( person.name + ", you can go to the movie.")
   } else if (person.age < 18) {
-    console.log( "You can't go to the movie.")
+    console.log( person.name + ", you can't go to the movie.")
   } else {
-    console.log( "But how old are you ?!")
+    console.log( person.name + " But how old are you ?!")
   }
 
   // 2
 
   if (person.name[0] == "B") {
-    console.log( "You can go to the movie" )
+    console.log( person.name + ", you can go to the movie." )
   } else {
-      console.log( "You can't go to the movie" )
+      console.log( person.name + ", you can't go to the movie." )
   }
 
   // 3
 
   if (person.age >= 18 && person.name[0] == "B") {
-      console.log( "You can go to the movie." )
+      console.log( person.name + ", you can go to the movie." )
   } else {
-      console.log( "You can't go to the movie.")
+      console.log( person.name + ", you can't go to the movie.")
   }
