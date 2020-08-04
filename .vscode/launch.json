@@ -13,7 +13,7 @@
             "type": "pwa-node",
             "name": "Run Current File",
             "request": "launch",
-            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3b-intro-to-javascript\\exercice_8.js"
+            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3b-intro-to-javascript\\exercice_9.js"
         }
     ]
 }
