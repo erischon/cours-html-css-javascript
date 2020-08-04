@@ -14,6 +14,22 @@
 // Comparison Operator
    // >, <, <=, >=, ==, ===, !=, !== 
    
-   if("2" == 2){
-    console.log("They are equal")
-}
+//    if("2" !== 2){
+//        console.log("They are equal")
+//    }
+
+
+// Truthy and Falsey
+    // falsey
+        // 0
+        // ""
+        // null
+        // undefined
+        // false
+        // NaN
+        
+        if("a"){
+            console.log("it is truthy")
+        } else {
+            console.log("it is falsey")
+        }
