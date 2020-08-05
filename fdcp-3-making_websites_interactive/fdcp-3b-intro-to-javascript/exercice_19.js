@@ -31,7 +31,7 @@ for (var i=0; i < enemies.length; i++) {
 function howAttractedIsLoisLaneToMe ()
 {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
 consol.log( HowAttractedIsLoisLaneToMe ()) ;
