@@ -1,22 +1,19 @@
-// querySelector
-// Select a single element from the page. (Returns the first element it finds that matches the query)
+// innerHTML - security risk
+// innerText - "expensive"
+// textContent
 
-// var result = document.querySelector("#favorite-things")
-// document.write(result)
+// var person = {name: "Joe"}
+// person.name = "Jim"
+// console.log(person)
 
-// var result = document.querySelectorAll("#favorite-things")
-// document.write(result)
+/*
+ * 1. Select the h1 element
+ * 2. Save the h1 element's text to a variable
+ * 3. Change the paragraph element's text to be the same as the text inside the h1
+ */
 
-// var result = document.querySelector("ol#favorite-things > li")
-// document.write(result)
+// var documentH1 = document.querySelector("h1").textContent
+// document.querySelector("p").textContent = documentH1
 
-
-// querySelectorAll
-// Select all elements from the page that match the query.
-
-var result = document.querySelectorAll("ol#favorite-things > li")
-document.write(Array.from(result))
-
-for (var i = 0; i< result.length; i++) {
-    result[i].textContent = "** REDACTED **"
-}
+var text = document.querySelector("#header").textContent
+document.querySelector("#paragraph").textContent = text
