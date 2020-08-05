@@ -13,7 +13,21 @@
             "type": "pwa-node",
             "name": "Run Current File",
             "request": "launch",
-            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3c-intro-to-the-dom\\index_3.js"
-        }
+            "program": "${workspaceFolder}\\fdcp-3-making_websites_interactive\\fdcp-3c-intro-to-the-dom\\index_4.js"
+        },
+
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/mypage.html",
+            "webRoot": "${workspaceFolder}/wwwroot"
+        },
+        {
+            "name": "Launch index.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html"
+        },
     ]
 }
