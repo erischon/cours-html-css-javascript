@@ -4,7 +4,24 @@
  */
 
 html, body {
-    margin: 0;
+    margin: 1em;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.title {
+    color: #16697A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.entry-textbox {
+    background-color: #FFA62B;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    border: unset;
+    border-radius: 10px;
+    box-shadow: 5px 5px #000000;
+    margin-bottom: 1em;
 }
