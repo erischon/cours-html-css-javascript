@@ -7,6 +7,8 @@ html, body {
     margin: 1em;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
 }
 
 .title {
@@ -26,6 +28,10 @@ html, body {
     margin-bottom: 1em;
 }
 
+.entry-textbox:focus {
+    outline: none;
+}
+
 /*
   - Go over to the index.html file and give the button a class of "button"
   - Back in the index.css file, target the button using its class
@@ -34,9 +40,11 @@ html, body {
   - move the button to the right of the page
 */
 
-.button {
+#entryForm .button {
+    border: unset;
     border-radius: 10px;
     padding: 0.8em;
     text-align: right;
     margin-left: 75%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
