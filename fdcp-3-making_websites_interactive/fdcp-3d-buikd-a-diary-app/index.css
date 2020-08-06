@@ -1,0 +1,10 @@
+/* 
+    From the body tag, move the content of our page away from the window edge
+    Give the body tag a font-family of ['Gill Sans', 'Gill Sans MT']
+ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
