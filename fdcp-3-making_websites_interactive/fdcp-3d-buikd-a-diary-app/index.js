@@ -4,8 +4,9 @@
 */
 
 const entryForm = document.getElementById("entryForm")
-var entriesSection = document.getElementById("entries")
-const entryTextbox = document.getElementsByClassName("entry-textbox")
+var entriesSection = document.querySelector("#entries")
+const entryTextbox = document.querySelector(".entry-textbox")
+const entriesNav = document.querySelector('.entries-nav')
 
 /*
  - Add an event listener to the entryForm variable that prevents the page from
@@ -16,7 +17,7 @@ function addEntryToDom(event) {
     event.preventDefault();
     const entryDiv = document.createElement('div');
     entryDiv.className = 'single-entry';
-    entryDiv.innerText = entryTextbox[0].value
+    entryDiv.innerText = entryTextbox.value
     entryDiv.style.display = 'none';
     entriesSection.appendChild(entryDiv);
 
@@ -24,7 +25,12 @@ function addEntryToDom(event) {
     clear the entry textbox whenever the submit button is clicked
     */
 
-   entryTextbox[0].value = '';
+   entryTextbox.value = '';
+
+   const displayEntryButton = document.createElement('button');
+   displayEntryButton.className = 'display-entry-button';
+   displayEntryButton.innerText = 1;
+   entriesNav.appendChild(displayEntryButton);
 }
 
 entryForm.addEventListener('submit', addEntryToDom)
