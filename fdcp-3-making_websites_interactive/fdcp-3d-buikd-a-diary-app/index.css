@@ -48,3 +48,21 @@ html, body {
     margin-left: 75%;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
+
+/* 
+    - Give the entries section the background color, #16697A
+      (or any other color of your choice)
+    - Give it the text color, #EDE7E3
+      (if you used your own color, this should be something that is visible
+       on the background)
+    - Like we did before, give it rounded edges.
+ */
+
+ #entries {
+     background: #16697A;
+     color: #ede7e3;
+     border-radius: 10px;
+     padding: 0.5em;
+     max-width: 20em;
+     border: unset;
+ }
