@@ -28,5 +28,13 @@ p {
 }
 
 .accent-color {
-    color: yellow;  
+    color: #FFE600;  
+}
+
+a {
+    color: #FFE600;
+}
+
+a:hover, a:focus {
+    color: aqua;
 }
