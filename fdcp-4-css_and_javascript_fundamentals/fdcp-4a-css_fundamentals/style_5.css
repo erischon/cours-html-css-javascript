@@ -6,6 +6,10 @@
     padding: 50px; 
 }
 
+h1, p {
+    margin: 0;
+}
+
 h1 {
     font-size: 24px;
 }
@@ -16,4 +20,5 @@ p {
 
 .links {
     margin-top: 2.5em;
+    margin-bottom: 0;
 }
