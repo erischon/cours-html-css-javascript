@@ -35,6 +35,7 @@ function addEntryToDom(event) {
    entriesNav.appendChild(displayEntryButton);
 
    displayEntryButton.addEventListener('click', function() {
+    const allEntries = document.querySelectorAll('single-entry');
     entryDiv.style.display = 'block';
     })
 
@@ -56,6 +57,17 @@ entryForm.addEventListener('submit', addEntryToDom)
   - Change the div's innerText property to the user's input from the textbox
   - Use the appendChild method to add the new div to the entriesSection
       variable created on line 2
+*/
+
+/*
+    - Inside the displayEntryButton addEventListener function, create a new variable named 'allEntries'.
+    - use the document.queryselectorAll method to select all elements with the class of 'single-entry' and make that the value of the new allEntries variable.
+*/
+
+/*
+    - Use a for loop to iterate through all the elements in the
+        allEntries variable.
+    - Set each element's style.display property to 'none'.
 */
 
 
