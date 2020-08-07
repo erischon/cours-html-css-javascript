@@ -18,6 +18,12 @@ function addEntryToDom(event) {
     entryDiv.className = 'single-entry';
     entryDiv.innerText = entryTextbox[0].value
     entriesSection.appendChild(entryDiv);
+
+        /*
+    clear the entry textbox whenever the submit button is clicked
+    */
+
+   entryTextbox[0].value = '';
 }
 
 entryForm.addEventListener('submit', addEntryToDom)
