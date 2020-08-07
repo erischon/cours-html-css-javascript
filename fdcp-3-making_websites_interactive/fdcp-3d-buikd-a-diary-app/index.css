@@ -66,3 +66,24 @@ html, body {
      max-width: 20em;
      border: unset;
  }
+
+   /*
+    - Target the div for the display-entry buttons and give it a
+        bottom padding of 1em to separate it from the entry texts
+    - Target the display-entry buttons and give each of them a margin
+        of 0.2em to separate them from one another
+    - Use the hover pseudo-class to change the cursor on the
+        display-entry buttons to "pointer" whenever they are hovered on
+ */
+
+ .entries-nav {
+     padding-bottom: 1em;
+ }
+
+ .display-entry-button {
+    margin: 0.2em;
+ }
+
+ .display-entry-button:hover {
+    cursor: pointer;
+ }
