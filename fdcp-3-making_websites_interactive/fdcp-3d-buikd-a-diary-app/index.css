@@ -38,7 +38,7 @@ html, body {
 #entryForm .button {
     border: unset;
     border-radius: 6px;
-    padding: 0.8em;
+    padding: 1em;
     text-align: right;
     margin-left: 84%;
     font-weight: bold;
