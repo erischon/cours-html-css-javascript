@@ -20,7 +20,7 @@ html, body {
     height: 10em;
     padding: 1em;
     border: unset;
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
     margin: 0 auto;
     margin-bottom: 1em;
@@ -37,7 +37,7 @@ html, body {
 
 #entryForm .button {
     border: unset;
-    border-radius: 10px;
+    border-radius: 6px;
     padding: 0.8em;
     text-align: right;
     margin-left: 84%;
@@ -52,10 +52,14 @@ html, body {
 #entries {
      background: #3775a8;
      color: #ede7e3;
-     border-radius: 10px;
-     padding: 0.5em;
+     border-radius: 6px;
+     padding: 1em;
      max-width: 30em;
      border: unset;
+ }
+
+ .single-entry {
+     font-weight: 400;
  }
 
  .entries-nav {
