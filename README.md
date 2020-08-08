@@ -2,9 +2,11 @@
 
 All my files about learning HTML, CSS & Javascript.
 
-## FreeCodeCamp (fcc)   
+## FreeCodeCamp (fcc)  
+# Responsive webdesign certification  
 
-## Scrimba > The Frontend Developer Career Path (fdcp)  
+## Scrimba  
+# The Frontend Developer Career Path (fdcp)  
 
 ## Youtube  
 
