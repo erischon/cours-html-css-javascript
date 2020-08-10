@@ -18,9 +18,12 @@ a {
     color: #ef5839;
 }
 
-.main {
+.section-one a:hover {
+    color: #2e354f;
+}
 
-
+.st-link:hover {
+    color: white;
 }
 
 .img {
@@ -29,9 +32,43 @@ a {
 
 .header, .section-two {
     background: #2e354f;
-    padding: 2em 5em;
+    padding: 2em 2.5em;
 }
+
 .section-one {
-    padding: 2em 5em;
+    padding: 2em 2.5em;
     background: white;
+    color: #2e354f;
+}
+
+.so, .st {
+    color: #ef5839;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn-orange {
+    background: #ef5839;
+    color: white;
+}
+
+.btn-orange:hover {
+    background: white;
+    color: #ef5839;
+}
+
+.btn-white:hover {
+    background: #ef5839;
+    color: white;
+}
+
+.btn-white {
+    background: white;
+    color: #ef5839;
 }
