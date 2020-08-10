@@ -46,7 +46,7 @@ header {
 
 .btn {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 10px 25px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -56,7 +56,16 @@ header {
     color: black;
 }
 
+.section-one .btn:hover {
+    background: white;
+}
+
 .section-two .btn {
     background: black;
     color: white;
+}
+
+.section-two .btn:hover {
+    background: #FFE600;
+    color: black;
 }
