@@ -18,11 +18,11 @@ a {
     color: #ef5839;
 }
 
-.section-one a:hover {
+.section-one a:hover, .section-one a:focus {
     color: #2e354f;
 }
 
-.st-link:hover {
+.st-link:hover, .st-link:focus {
     color: white;
 }
 
@@ -58,17 +58,18 @@ a {
     color: white;
 }
 
-.btn-orange:hover {
+.btn-orange:hover, .btn-orange:focus {
     background: white;
-    color: #ef5839;
-}
-
-.btn-white:hover {
-    background: #ef5839;
-    color: white;
+    color: #2e354f;
 }
 
 .btn-white {
     background: white;
-    color: #ef5839;
+    color: #2e354f;
 }
+
+.btn-white:hover, .btn-white:focus {
+    background: #ef5839;
+    color: white;
+}
+
