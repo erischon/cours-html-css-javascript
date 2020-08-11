@@ -6,3 +6,41 @@
 	Write your solution here!
    ========================== */
 
+body {
+   margin: 0;
+   padding: 0;
+   font-family: lato, sans-serif;
+}
+
+/* layout */
+
+.container {
+   width: 95%;
+   margin: 0 auto;
+   padding: 1em;
+   border: 2px solid yellow;
+}
+
+.title-section, .about-section, .contact-section {
+   text-align: center;
+}
+
+.title-section {
+   background: #2e354f;
+   color: white;
+}
+
+/*  */
+
+.title-text, .section-title {
+   text-transform: uppercase;
+}
+
+.section-title {
+   color: #2e354f;
+}
+
+a {
+   color: #ef5839;
+}
+
