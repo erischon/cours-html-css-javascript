@@ -41,23 +41,35 @@ body {
 /* ==========================
 	Write your solution here!
    ========================== */
+   
+.square-1 {
+	background: #c74e48;	
+}
 
-   .square-1 {
-	   background: #c74e48;
-	   color: #beffb0;
-   }
+.square-1 * {
+	color: #beffb0;
+}
 
-   .square-2 {
-		background: #6cb344;
-		color: #ffd9d1;
-   }
+.square-2 {
+	background: #6cb344;
+}
 
-   .square-3 {
-		background: #b8eaff;
-		color: #472a00;
-   }
+.square-2 * {
+	color:#ffd9d1;
+}
 
-   .square-4 {
-		background: #af63db;
-		color: #fffbc2;
-   }
+.square-3 {
+	background: #b8eaff;
+}
+
+.square-3 * {
+	color: #472a00;
+}
+
+.square-4 {
+	background: #af63db;
+}
+
+.square-4 * {
+	color: #fffbc2;
+}
