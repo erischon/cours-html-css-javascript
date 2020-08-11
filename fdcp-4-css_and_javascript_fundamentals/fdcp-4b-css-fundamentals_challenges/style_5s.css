@@ -12,19 +12,22 @@ body {
  /* ==========================
      Write your solution here!
     ========================== */
-
+    
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    
     .btn {
-        display: inline-block;
-        padding : 10px 25px;
+        text-decoration: none;
         background: #ef5839;
         color: white;
-        font-family: Lato, sans-serif;
-        text-decoration: none;
-        font-weight: bold;
+        font-weight: 900;
+        padding: 20px;
+        display: block;
     }
-
+    
     .btn:hover, .btn:focus {
         background: #d4b44c;
         color: #2e354f;
-        font-size: 22px;
+        font-size: 30px;
     }
