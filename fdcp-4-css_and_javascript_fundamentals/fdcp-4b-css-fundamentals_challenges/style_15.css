@@ -1,0 +1,14 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+   .row {
+       width: 500px;
+        margin: 0 auto;
+   }
+
+   img {
+       width: 200px;
+       height: 200px;
+       padding: 20px;
+   }
