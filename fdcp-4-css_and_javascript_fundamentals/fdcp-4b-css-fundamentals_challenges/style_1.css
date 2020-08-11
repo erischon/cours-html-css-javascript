@@ -9,6 +9,7 @@
 body {
    margin: 0;
    padding: 0;
+   font-size: 18px;
    font-family: lato, sans-serif;
 }
 
@@ -18,7 +19,6 @@ body {
    width: 95%;
    margin: 0 auto;
    padding: 1em;
-   border: 2px solid yellow;
 }
 
 .title-section, .about-section, .contact-section {
@@ -30,7 +30,7 @@ body {
    color: white;
 }
 
-/*  */
+/* Text */
 
 .title-text, .section-title {
    text-transform: uppercase;
@@ -42,5 +42,24 @@ body {
 
 a {
    color: #ef5839;
+}
+
+a:hover, a:focus {
+   color: #2e354f;
+}
+
+/* Button*/
+
+.btn {
+   display: inline-block;
+   background: #ef5839;
+   color: white;
+   padding: 10px 25px;
+   text-decoration: none;
+}
+
+.btn:focus, .btn:hover {
+   background: #d4b44c;
+   color: #2e354f;
 }
 
