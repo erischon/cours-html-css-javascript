@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* layout */
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    margin: 1em 0;
+}
+
+.col {
+    padding: .5em;
+}
+
+.col-black {
+    background: #312614;
+    color: white;
+}
+
+/*  */
+
+img {
+    width: 100%;
+    padding: .5em;
+}
