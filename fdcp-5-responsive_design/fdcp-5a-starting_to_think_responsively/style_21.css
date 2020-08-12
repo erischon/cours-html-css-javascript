@@ -1,0 +1,24 @@
+/*  Fonts
+    -----
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+ */
+ 
+ nav ul {
+    border: 1px solid magenta;
+    
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    border: 2px dotted orange;
+}
+
+nav a {
+    border: 3px solid green;
+}
+
+nav a:hover {
+    
+}
