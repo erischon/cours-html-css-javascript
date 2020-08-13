@@ -42,10 +42,20 @@ Layout
     display: flex;
     justify-content: space-between;
 }
- 
+
 header {
     background: #f8f8f8;
     padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+    }
 }
 
 /* navigation */
@@ -81,16 +91,12 @@ nav a:focus {
     color: #707070;
 }
 
-@media (max-width: 700px) {
-
-    .container {
-        display: flex;
+@media (max-width: 675px) {
+    nav ul {
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
     }
-
-    .site-title {
-        text-align: center;
+    
+    nav li {
+        margin: .5em 0;
     }
 }
