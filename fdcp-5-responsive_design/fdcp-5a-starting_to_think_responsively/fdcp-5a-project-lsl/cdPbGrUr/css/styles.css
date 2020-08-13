@@ -112,6 +112,7 @@ main {
 
 .main {
     max-width: 714px;
+    min-width: 80%;
 }
 
 .upfront .blog-img img {
@@ -151,4 +152,13 @@ main {
 .blog-continue a:hover, 
 .blog-continue a:focus {
 
+}
+
+.blog-card {
+    display: flex;
+    border: 1px solid black;
+}
+
+.card-img .blog-img {
+    width: 100%;
 }
