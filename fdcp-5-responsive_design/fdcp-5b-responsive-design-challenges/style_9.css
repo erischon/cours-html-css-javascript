@@ -1,0 +1,32 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F8F8;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    color: #143774;
+    font-family: 'Lora', sans-serif;
+    font-weight: 500;
+}
+
+.link {
+    color: #717171;
+    text-decoration: none;
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
