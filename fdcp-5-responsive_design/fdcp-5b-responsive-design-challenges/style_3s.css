@@ -29,23 +29,20 @@ body {
 	Write your solution here!
    ========================== */
 
-body {
-    margin: 0;
-    padding: 0;
+.title {
+    font-size: 3rem;
+    padding: 1em;
 }
 
-.card {
-    margin: 0 auto;
-    padding: 1em;
-    margin: 1em;
+body {
+ margin: 0;
 }
 
 .text {
-    font-size: 2rem;
-    padding: 1em;
+ font-size: 1.5rem;
+ padding: 1em;
 }
-
-.title {
-    padding: 1em;
-    width: 100%;
+.card {
+    margin: 0 auto;
+    max-width: 800px;
 }
