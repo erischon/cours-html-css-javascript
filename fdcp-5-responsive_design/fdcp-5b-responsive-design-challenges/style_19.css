@@ -1,0 +1,73 @@
+/* DON'T TOUCH THIS! */
+body {
+	margin: 0;
+}
+
+.nav {
+	min-height: 150px;
+	background: #f0ffff;
+	margin: 0;
+	text-align: center;
+}
+
+.title {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	color: #e37a42;
+	font-size: 3.5rem;
+	margin: 1em;
+}
+
+.links {
+	width: 60%;
+	margin: 1em;
+}
+
+.link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #82350c;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 800;
+	font-size: 1.25rem;
+	margin: 0.75em;
+
+}
+
+.link-selected {
+	text-decoration: underline;
+}
+
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 850px) {
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+}
+
