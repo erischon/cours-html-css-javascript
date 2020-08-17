@@ -1,0 +1,84 @@
+/* DON'T TOUCH THIS! */
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	overflow-x: hidden;
+}
+.header {
+	font-family: 'Lora', serif;
+	color: #143774;
+	background: #F8F8F8;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 400;
+	padding: 0.75em;
+	margin: 0;
+	width: 100%;
+}
+
+.post-title {
+	color: #1792D2;
+	font-size: 2rem;
+}
+
+.post-description {
+	color: #707070;
+	font-size: 1.125rem;
+}
+
+.post {
+	background: #E1E1E1;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+.post-title {
+    font-size: 2.5rem;
+    order: 1;
+}
+
+.post-description {
+    font-size: 1.5rem;
+    order: 2;
+}
+
+.post-image {
+    width: 90%;
+    order: 3;
+}
+
+@media (min-width: 600px) {
+
+    .posts {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .post-description {
+        order: 4;
+    }
+
+    .post {
+        width: 40%;
+        margin: .5em
+    }
+
+}
