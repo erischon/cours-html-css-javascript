@@ -2,6 +2,11 @@
 	Write your solution here!
    ========================== */
 
+body {
+       margin: 0;
+       padding: 0;
+   }
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -29,4 +34,27 @@
     text-decoration: none;
     margin: 0.5em 0;
     font-size: 1.5em;
+}
+
+.link:hover, .link:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0 1.5em;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+
+    .link {
+        margin-left: 1em;
+    }
 }
