@@ -29,5 +29,7 @@ header {
 .header-subtitle {
     order: -1;
     color: #f18119;
+    border-top: 4px solid #f18119;
+    margin: 0 auto;
 }
 
