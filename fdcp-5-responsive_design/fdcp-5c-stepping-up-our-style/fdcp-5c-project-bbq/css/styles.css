@@ -76,3 +76,15 @@ strong { font-weight: 900; }
 .main-content {
     padding: 2em 1em;
 }
+
+
+/* =================
+   media queries 
+   ================= */
+   
+@media (min-width: 500px) {
+    body {
+        
+    }
+}
+   
