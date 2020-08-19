@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-image: url(../img/ribs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: brightness(50%) blur(3px);
+}
+
+.main {
+    display: flex;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.312rem;
+    font-weight: 900;
+}
+
+.header-subtitle {
+    order: -1;
+    color: #f18119;
+    border-top: 5px solid #f18119;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.625rem;
+}
+
+.header-title {
+    color: white;
+    line-height: 1em;
+    padding: 1.5em 0;
+}
+
+.header-bold {
+    font-weight: 900;
+}
+
+.header-cta {
+    color: #f18119;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    padding-bottom: .5em;
+}
+
+.main-title {
+    font-weight: 900;
+}
+
+.main-subtitle {
+    color: #f18119;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    font-weight: 900;
+    margin-top: -1em;
+}
+
+.main-text {
+    color: #404040;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+
+input {
+    margin: 0.4em 0;
+    padding: 0.7em;
+    border-radius: 7px;
+    border: 1px solid #404040;
+}
+
+::placeholder {
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 1rem;
+}
+
+.form-btn {
+    background-color: #f18119;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    letter-spacing: 0.2em;
+    border: none;
+    padding: 1.5em 0;
+    font-weight: 900;
+}
+
+.main-beware {
+    font-size: 0.625rem;
+    color: #a0a0a0;
+}
+
+@media (min-width: 600px) {
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header {
+        width: 50%;
+    }
+
+    header {
+        height: 100%;
+        /* justify-content: space-between; */
+        align-content: flex-start;
+    }
+
+    .header-title {
+        background: blue;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-subtitle {
+        background: green;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-cta {
+        background: gray;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width: 50%;
+    }
+}
+
+
+

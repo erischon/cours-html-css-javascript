@@ -134,12 +134,11 @@ input {
     header {
         height: 100%;
         /* justify-content: space-between; */
-        justify-content: flex-start;
+        align-content: flex-start;
     }
 
     .header-title {
         background: blue;
-        justify-self: flex-end;
         margin: 0;
         padding: 0;
     }
