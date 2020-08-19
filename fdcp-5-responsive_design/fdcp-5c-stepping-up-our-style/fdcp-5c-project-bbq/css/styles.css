@@ -102,6 +102,7 @@ strong { font-weight: 900; }
     .intro,
     .main-content {
         width: 50%;
+        min-height: 100vh;
     }
 }
    
