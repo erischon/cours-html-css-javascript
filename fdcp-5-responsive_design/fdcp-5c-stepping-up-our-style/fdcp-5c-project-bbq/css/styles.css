@@ -70,6 +70,10 @@ strong { font-weight: 900; }
     background-color: #404040;
     background-position: center;
     padding: 0 .5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
 }
 
 
@@ -83,19 +87,27 @@ strong { font-weight: 900; }
 
 
 
-.container {
+.intro > *,
+.main-content > * {
     max-width: 400px;
-    margin: 0 auto;
-}
-
-.container-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+/* =================
+   form
+   ================= */
+   
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
 
 /* =================
    media queries 
@@ -126,9 +138,5 @@ strong { font-weight: 900; }
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    
-    .container-intro {
-        height: 100%;
     }
 }
