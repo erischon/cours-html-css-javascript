@@ -69,9 +69,10 @@ strong { font-weight: 900; }
    ================= */
    
 .intro {
-    background-image: url(images/dark-ribs.jpg);
-    background-size: cover;
+    background-image: url(../img/ribs.jpg);
     background-color: #404040;
+    background-blend-mode: multiply;
+    background-size: cover;
     background-position: center;
     padding: 0 .5em 2em;
     display: flex;
