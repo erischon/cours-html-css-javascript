@@ -5,3 +5,9 @@
     3. Make sure the captured value is lowercase
     4. Log to the console to demonstrate it works
 */
+document.getElementById("searchInput").addEventListener("keyup", function(event) {
+    let searchQuery = event.target.value.toLowerCase();
+    console.log(searchQuery);
+});
+
+// utiliser document.write pour remplacer console.log
