@@ -21,7 +21,8 @@ the edges of the slides, but adequately spaced
     position: relative;
 }
 
-.carousel .carousel-item {
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
     display: none;
 }
 
