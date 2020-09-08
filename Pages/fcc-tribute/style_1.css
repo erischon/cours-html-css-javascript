@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 body {
     margin: 0;
@@ -9,38 +9,9 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Grid set-up */
-
 #main {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: 
-    "header header header"
-    ". img ."
-    ". liste ."
-    ". link .";
-    align-items: center;
-    justify-items: center;
     background: rgba(86,104,91,0.7);
 }
-
-
-header {
-    grid-area: header;
-}
-
-#img-div {
-    grid-area: img;
-}
-
-#tribute-info {
-    grid-area: liste;
-}
-
-.link {
-    grid-area: link;
-}
-
 
 header {
     background-image: linear-gradient(313deg, rgba(86,104,91,0.2) 0%, rgba(122,156,166,0.2) 36%), url("maigret-cover.jpg");
@@ -91,7 +62,7 @@ h2 {
 ul {
     background: white;
     margin: 1em;
-    padding: 2em 4em;
+    padding: 2em;
     list-style: circle;
     font-family: courier;
 }
@@ -100,12 +71,38 @@ li {
     padding: .3em 0;
 }
 
-.link {
-    margin: 3em 0;
-    padding-top: 1em;
-    border-top: 3px solid black;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header header header"
+    "img-div portrait bio"
+    "liste liste liste"
+    "link link link";
+align-items: center;
+justify-items: center;
+    border: 6px dashed white;
 }
 
+header {
+    grid-area: header;
+}
+
+#img-div {
+    grid-area: img-div;
+    border: 6px solid gold;
+}
+
+.bio {
+    grid-area: bio;
+    border: 6px dashed purple;
+}
+
+#tribute-info {
+    grid-area: liste;
+}
+
+.link {
+    grid-area: link;
+}
