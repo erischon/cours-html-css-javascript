@@ -48,3 +48,9 @@ var user = {
     id: "0",
     nickname: undefined
 }
+
+if(user.name){
+    console.log("It is true!")
+} else {
+    console.log("It is false!")
+}
