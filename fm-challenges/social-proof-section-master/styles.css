@@ -1,3 +1,45 @@
 body {
     margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: Spartan;
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
 }
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    line-height: .95em;
+}
+
+.card {
+    background: hsl(300, 43%, 22%);
+    margin: 1em 0;
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+
+/* 
+.sp-section {
+    display: grid;
+    grid-template-areas: 
+    "title star"
+    "card card";
+}
+
+.section1 {
+    grid-area: title;
+}
+
+.section2 {
+    grid-area: star;
+}
+
+.section3 {
+    grid-area: card;
+} */
