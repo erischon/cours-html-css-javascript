@@ -21,6 +21,19 @@ body {
     display: flex;
 }
 
+.card-img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-title {
+
+}
+
+.card-state {
+
+}
+
 
 
 
