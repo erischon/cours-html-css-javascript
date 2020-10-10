@@ -84,24 +84,25 @@ body {
 @media (min-width: 675px) {
 
     
-.sp-section {
-    display: grid;
-    grid-template-areas: 
-    "title star"
-    "card card";
-}
+    .sp-section {
+        display: grid;
+        grid-template-areas: 
+        "title star"
+        "card card";
+    }
 
-.section1 {
-    grid-area: title;
-}
+    .section1 {
+        grid-area: title;
+    }
 
-.section2 {
-    grid-area: star;
-}
+    .section2 {
+        grid-area: star;
+    }
 
-.section3 {
-    grid-area: card;
-}
+    .section3 {
+        grid-area: card;
+        display: flex;
+    }
 
 }
 
