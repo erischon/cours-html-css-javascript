@@ -81,9 +81,9 @@ body {
 }
 
 
+@media (min-width: 675px) {
 
-
-/* 
+    
 .sp-section {
     display: grid;
     grid-template-areas: 
@@ -101,4 +101,9 @@ body {
 
 .section3 {
     grid-area: card;
-} */
+}
+
+}
+
+
+
