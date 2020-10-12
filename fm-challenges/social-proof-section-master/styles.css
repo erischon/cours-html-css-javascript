@@ -104,6 +104,27 @@ body {
         display: flex;
     }
 
+    .block2 {
+        margin-left: 3em;
+    }
+
+    .block3 {
+        margin-left: 5em;
+    }
+
+    .card {
+        margin: 1em;
+    }
+
+    .pos2 {
+        margin-top: 3em;
+    }
+
+    .pos3 {
+        margin-top: 5em;
+    }
+
+
 }
 
 
